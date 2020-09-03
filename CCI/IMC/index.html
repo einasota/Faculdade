@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculador de IMC</title>
+    <script src="app.js"></script>
 </head>
 <body>
-    
+    <main>
+        <form action="">
+                <label>Peso:</label>
+                <input type="text" id="peso"onchange="imc()" placeholder="Insira seu Peso">
+                <label>Altura:</label>
+                <input type="text" id="altura" onchange="imc()" placeholder="Insira sua Altura">
+                <label>Resultado:</label>
+                <input type="text" id="resultado" readonly>
+                <input type="button" value="Enviar" onclick="imc()">
+        </form>
+
+    </main>
 </body>
 </html>
