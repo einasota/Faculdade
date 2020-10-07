@@ -10,7 +10,9 @@ Os arquivos se encontram no repositório.
 
  1. Faça o Import da DB no seu Mysql utilizando qualquer ferramenta (DBeaver, Mysql Workbench, Phpmyadmin, entre outros).
  2. Edite o arquivo `index.php` com os dados do seu banco dados.
+
 ![Como exemplo da Imagem](https://i.ibb.co/DG9fhJg/2020-10-07-19-58.png)
+
  3. Mova o arquivos `index.php` e `style.css` para a pasta raiz do apache.
  4. Acesse o localhost indicado pelo seu apache junto com o php.
 #### Screenshots
