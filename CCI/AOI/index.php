@@ -28,8 +28,8 @@
 
                 #Edite aqui as informações do seu banco de dados
                 $server = "localhost";
-                $user = "user";
-                $pass = "pass"; 
+                $user = "root";
+                $pass = "81758321"; 
                 $db = "produtos";
                 #Conexão
                 $connect = mysqli_connect($server, $user, $pass, $db);
